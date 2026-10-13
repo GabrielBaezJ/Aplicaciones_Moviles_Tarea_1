@@ -4,6 +4,8 @@ import 'pantalla/menu_pantalla.dart';
 import 'pantalla/ejercicio6_pantalla.dart';
 import 'pantalla/ejercicio7_pantalla.dart';
 import 'pantalla/ejercicio8_pantalla.dart';
+import 'pantalla/ejercicio9_pantalla.dart';
+import 'pantalla/ejercicio10_pantalla.dart';
 
 
 void main() {
@@ -25,8 +27,8 @@ class MyApp extends StatelessWidget {
         '/ejercicio6': (context) => const Ejercicio6Pantalla(),
         '/ejercicio7': (context) => const Ejercicio7Pantalla(),
         '/ejercicio8': (context) => const Ejercicio8Pantalla(),
-        /*'/ejercicio9': (context) => const Ejercicio9Pantalla(),
-        '/ejercicio10': (context) => const Ejercicio10Pantalla(),*/
+        '/ejercicio9': (context) => const Ejercicio9Pantalla(),
+        '/ejercicio10': (context) => const Ejercicio10Pantalla(),
       },
     );
   }
