@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'pantalla/menu_pantalla.dart';
 import 'pantalla/ejercicio6_pantalla.dart';
+import 'pantalla/ejercicio7_pantalla.dart';
+import 'pantalla/ejercicio8_pantalla.dart';
+
 
 void main() {
   runApp(const MyApp());
